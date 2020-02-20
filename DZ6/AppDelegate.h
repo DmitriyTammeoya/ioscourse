@@ -10,6 +10,19 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+typedef enum {
+    TDplusEV,
+    TD0EV,
+    TDminusEV
+} TDpokerplayer;
+
+@property (assign, nonatomic) TDpokerplayer mtt;
+@property (assign, nonatomic) TDpokerplayer cash;
+@property (assign, nonatomic) TDpokerplayer spin;
+
+
+
+
 
 @end
 
